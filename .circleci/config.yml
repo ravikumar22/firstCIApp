@@ -5,6 +5,5 @@ jobs:
     docker:
       -image: circle/node:7
     steps:
-      - checkout
       - npm install
       - npm test
